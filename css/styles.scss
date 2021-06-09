@@ -26,11 +26,13 @@ a:hover {
 
 html,
 body {
+  overflow: hidden;
   height: 100%;
   font-family: 'Google Sans',Roboto,Arial,sans-serif;
 }
 
 body {
+  overflow: hidden;
   display: -ms-flexbox;
   display: flex;
   color: #141517;
