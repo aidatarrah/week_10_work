@@ -9,7 +9,13 @@
   background-color: #fff;
   border: .05rem solid #fff;
 }
-
+a, h1 {
+  color: gray!important;
+}
+a:hover, h1:hover {
+  color: #333!important;
+  text-decoration: none;
+}
 /*
  * Base structure
  */
@@ -25,9 +31,7 @@ body {
   display: flex;
   color: #141517;
 }
-a {
-  color: gray!important;
-}
+
 .cover-container {
   max-width: 70em;
 }
@@ -55,13 +59,7 @@ a {
   margin-bottom: 0;
   font-size: 	1.2rem;
 }
-a {
-  color: #141517;
-}
-a:hover {
-  color: #333;
-  text-decoration: none;
-}
+
 .nav-masthead .nav-link {
   font-size: 1rem;
   padding: .25rem 0.75rem;
