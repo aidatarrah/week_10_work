@@ -25,7 +25,9 @@ body {
   display: flex;
   color: #141517;
 }
-
+a {
+  color: gray!important;
+}
 .cover-container {
   max-width: 70em;
 }
