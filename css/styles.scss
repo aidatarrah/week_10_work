@@ -27,7 +27,6 @@ body {
 }
 
 body {
-  display: -ms-flexbox;
   display: flex;
   color: #141517;
 }
@@ -103,11 +102,12 @@ body {
 }
 }
 
- * Footer
- */
+/* Footer */
+
 .mastfoot {
   color: rgba(255, 255, 255, .5);
   width: 100%;
-  margin-bottom: -20px;
+  margin: -1.25rem 1.5rem;
   font-size: 0.80rem;
+  text-align: left;
 }
